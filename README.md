@@ -17,3 +17,15 @@ Graphical representations were used to tell stories of the data in a very simple
 The statistics of the data show that the average price is £16,909, and it was derived that there is a 95% chance that the average market price of the second Nissan Qashqai in the UK is between £16,693 and £17,125. To ascertain this, price was obtained from the public domain and a one sample T test was conducted, the results showed no significant difference between the average UK price and the mean price calculated in our sample.
 ## Correlation Analysis
 This is to show how strongly these characteristics are related to the price of the car or the degree of association between them. The gearbox had the highest correlation at 0.534, and the least correlated was its horsepower of 140 at 0.079. 
+## Regression Analysis 
+Finally, we built a model to predict the value of the car by first identifying its most significant features, then testing the model for adequacy and goodness of fit. The analysis shows that Mileage, age, Gearbox and Horsepower (110PS, 140PS,160PS) were the most significant and can explain 59.1% of the price variation. 
+
+
+At 0.591, we can say that the model is moderately strong, and other factors can explain the difference, e.g., 
+the size of the car, the number of previous owners, or just sheer sentimental attachment to the car because 
+of its usefulness for family
+
+
+
+
+For full read please
