@@ -21,7 +21,7 @@ Finally, we built a model to predict the value of the car ( using the features w
 ![model summary](https://user-images.githubusercontent.com/122166125/231270393-d298b6bb-6dcc-48c3-aa39-b7fec8608747.png)
 
 This is a moderate model, it means that the independent variables can explain 59.1% of the variation in the price of the car, also there are other variables not factored here that might have improved the quality of the model e.g., number of previous owners, ULEZ compliance or just sheer sentimental value attached to the car because of the size and usefulness for large families. 
-## Stastical Model
+## Statistical Model
 The equation of the model to predict a car can thus be described through the Unstandardized Coefficient B as:
 - 19,976 -0.061*(mileage of the car) -560.393*(Age of the car) +2527*(Automatic) -1754*(PS) +errors. 
 
