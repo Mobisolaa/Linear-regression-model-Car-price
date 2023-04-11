@@ -15,15 +15,12 @@ Graphical representations were used to tell stories of the data in a very simple
 ![price distribution](https://user-images.githubusercontent.com/122166125/231164567-faa211b9-82f6-4bbd-bedc-ac745b5b4c75.png)
 ## Hypothesis Testing 
 The statistics of the data show that the average price is £16,909, and it was derived that there is a 95% chance that the average market price of the second Nissan Qashqai in the UK is between £16,693 and £17,125. To ascertain this, price was obtained from the public domain and a one sample T test was conducted, the results showed no significant difference between the average UK price and the mean price calculated in our sample.
-## Correlation Analysis
-This is to show how strongly these characteristics are related to the price of the car or the degree of association between them. The gearbox had the highest correlation at 0.534, and the least correlated was its horsepower of 140 at 0.079. 
 ## Regression Analysis 
 Finally, we built a model to predict the value of the car ( using the features with the highest predictive power), then tested the model for adequacy and goodness of fit. The analysis shows that Mileage, age, Gearbox and Horsepower (110PS, 140PS,160PS) were the most significant.
 
 ![model summary](https://user-images.githubusercontent.com/122166125/231270393-d298b6bb-6dcc-48c3-aa39-b7fec8608747.png)
 
 This is a moderate model, it means that the independent variables can explain 59.1% of the variation in the price of the car, also there are other variables not factored here that might have improved the quality of the model e.g., number of previous owners, ULEZ compliance or just sheer sentimental value attached to the car because of the size and usefulness for large families. 
-
 ## Stastical Model
 The equation of the model to predict a car can thus be described through the Unstandardized Coefficient B as: 19,976 -0.061*(mileage of the car) -560.393*(Age of the car) +2527*(Automatic) -1754*(PS) +errors. 
 i.e., If mileage increases, price falls, and as age of the car increases, price also falls, an automatic will increase the price of the car, while a manual will fall by the same value, a 110Ps reduces the price by 1754, but a 140 and 160PS will increase the price by 919.6 and 1155.3 respectively. 
