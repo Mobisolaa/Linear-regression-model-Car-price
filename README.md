@@ -22,9 +22,13 @@ Finally, we built a model to predict the value of the car ( using the features w
 
 This is a moderate model, it means that the independent variables can explain 59.1% of the variation in the price of the car, also there are other variables not factored here that might have improved the quality of the model e.g., number of previous owners, ULEZ compliance or just sheer sentimental value attached to the car because of the size and usefulness for large families. 
 ## Stastical Model
-The equation of the model to predict a car can thus be described through the Unstandardized Coefficient B as: 19,976 -0.061*(mileage of the car) -560.393*(Age of the car) +2527*(Automatic) -1754*(PS) +errors. 
+The equation of the model to predict a car can thus be described through the Unstandardized Coefficient B as:
+- 19,976 -0.061*(mileage of the car) -560.393*(Age of the car) +2527*(Automatic) -1754*(PS) +errors. 
+
 i.e., If mileage increases, price falls, and as age of the car increases, price also falls, an automatic will increase the price of the car, while a manual will fall by the same value, a 110Ps reduces the price by 1754, but a 140 and 160PS will increase the price by 919.6 and 1155.3 respectively. 
+
 E.g., Predict the price of an automatic 160PS 2020 model Nissan Qashqai with a mileage of 74,640. 
 = 19,976 -0.061*(74,640) -560.3*(3) +2527*(1) +1155.3*(1) 
 = £17,424.4 
+
 For full read, which includes the correlation analysis, multicolinearity, and all other assumptions tested please
