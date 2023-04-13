@@ -32,7 +32,7 @@ The equation of the model to predict a car can thus be described through the Uns
 
 i.e., If mileage increases, price falls, and as age of the car increases, price also falls, an automatic will increase the price of the car, while a manual will fall by the same value, a 110Ps reduces the price by 1754, but a 140 and 160PS will increase the price by 919.6 and 1155.3 respectively. 
 
-E.g., Predict the price of an automatic 160PS 2020 model Nissan Qashqai with a mileage of 74,640. 
+In conclusion, to predict the price of an automatic 160PS 2020 model Nissan Qashqai with a mileage of 74,640. 
 = 19,976 -0.061*(74,640) -560.3*(3) +2527*(1) +1155.3*(1) 
 = £17,424.4 
 
