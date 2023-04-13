@@ -1,4 +1,4 @@
-## Linear-regression-model-Car-price
+## Linear-regression-model-Price-prediction
 A model aimed at predicting the price of a second-hand Nissan Qashqai using the features with the highest predictive power. Specifically focusing on the Wolverhampton UK market.
 ## Introduction
 The study started by examining the characteristics and popularity to obtain a general understanding of the car. Sample data of 85 cars with a maximum age of 5 years was taken from WV4 6BD +10 miles environment to help draw the conclusions. The age of the cars were restricted to 5 years because that is a close range - including wider years creates a possibility that the sample would contain extremely higher prices or extremely lower prices, and as such can distort the overall conclusions. 
