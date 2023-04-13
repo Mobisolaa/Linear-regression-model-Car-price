@@ -1,7 +1,7 @@
 ## Linear-regression-model-Car-price
-A model aimed at establishing the features with the highest predictive power in determining the price of a second-hand Nissan Qashqai.  Specifically focusing on Wolverhampton UK market.
+A model aimed at predicting the price of a second-hand Nissan Qashqai using the features with the highest predictive power. Specifically focusing on the Wolverhampton UK market.
 ## Introduction
-The study started by examining the car based on its characteristics and popularity to obtain a general understanding. Sample data of 85 cars with a maximum age of 5 years was taken from WV4 6BD +10 miles environment to help draw the conclusions. The age of the cars were restricted to 5 years because that is a close range - including wider years creates a possibility that the sample would contain extremely higher prices or extremely lower prices, and as such can distort the overall conclusions. 
+The study started by examining the characteristics and popularity to obtain a general understanding of the car. Sample data of 85 cars with a maximum age of 5 years was taken from WV4 6BD +10 miles environment to help draw the conclusions. The age of the cars were restricted to 5 years because that is a close range - including wider years creates a possibility that the sample would contain extremely higher prices or extremely lower prices, and as such can distort the overall conclusions. 
 The characteristics of the cars hitherto obtained were the Year of making, Price, Engine size, Mileage, Gearbox, Horsepower (denoted in PS), Number of previous owners, Fuel type, and ULEZ compliance (Ultra Low Emission Zone), but as we cleaned data, characteristics like Number of previous owners, ULEZ compliance were eliminated because the infos were missing for some of the cars. 
 ## Data Scraping
 Data was scraped from the Auto traders’ website on the 30th of Nov 2022 focusing on Nissan Qashqai cars available for sale within a 10-mile radius of the wv46bd postcode. A population of 310 Nissan Qashqai cars between the ages of 1 and 5 were selected for the study before being cleaned for outliers, resulting in 85 datapoints.
@@ -22,7 +22,12 @@ Finally, we built a model to predict the value of the car ( using the features w
 
 This is a moderate model, it means that the independent variables can explain 59.1% of the variation in the price of the car, also there are other variables not factored here that might have improved the quality of the model e.g., number of previous owners, ULEZ compliance or just sheer sentimental value attached to the car because of the size and usefulness for large families. 
 ## Statistical Model
+
+![sig](https://user-images.githubusercontent.com/122166125/231777807-441862b8-38bd-43f3-a0de-e11548b1e563.png)
+
 The equation of the model to predict a car can thus be described through the Unstandardized Coefficient B as:
+
+
 - 19,976 -0.061*(mileage of the car) -560.393*(Age of the car) +2527*(Automatic) -1754*(PS) +errors. 
 
 i.e., If mileage increases, price falls, and as age of the car increases, price also falls, an automatic will increase the price of the car, while a manual will fall by the same value, a 110Ps reduces the price by 1754, but a 140 and 160PS will increase the price by 919.6 and 1155.3 respectively. 
@@ -31,4 +36,5 @@ E.g., Predict the price of an automatic 160PS 2020 model Nissan Qashqai with a m
 = 19,976 -0.061*(74,640) -560.3*(3) +2527*(1) +1155.3*(1) 
 = £17,424.4 
 
-For full read, which includes the correlation analysis, multicolinearity, and all other assumptions tested please
+For full read, which includes the correlation analysis, multicolinearity, and all the assumptions tested please
+
